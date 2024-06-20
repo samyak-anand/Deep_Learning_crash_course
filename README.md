@@ -46,6 +46,7 @@ Input Layer:
 
 - Function: Receives the raw input data and passes it to the next layer.
 - Characteristics: Does not perform any computations, simply forwards the data.
+
 Hidden Layers:
 
 - Function: Perform computations and extract features from the input data.
