@@ -46,7 +46,7 @@ Input Layer:
 
 - Function: Receives the raw input data and passes it to the next layer.
 - Characteristics: Does not perform any computations, simply forwards the data.
-- Hidden Layers:
+Hidden Layers:
 
 - Function: Perform computations and extract features from the input data.
 - Characteristics: Can have multiple hidden layers, making the network "deep."
@@ -55,3 +55,4 @@ Types:
 - Dense (Fully Connected) Layers: Each neuron is connected to every neuron in the previous and next layers.
 - Convolutional Layers: Apply convolution operations to capture spatial hierarchies, used primarily in image processing.
 - Recurrent Layers: Have connections that loop back to themselves, used for sequential data to capture temporal dependencies.
+
