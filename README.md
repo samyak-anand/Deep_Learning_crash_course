@@ -24,6 +24,8 @@
 **Definition:**
 Parameters are the elements within the network that are learned from the training data. In neural networks, these primarily include weights and biases.
 
+
+
 **Details:**
 
 - **Weights:**
@@ -65,6 +67,8 @@ Layers are the building blocks of neural networks. Each layer consists of a set 
       <pre>
       h_t = σ(W_h h_{t-1} + W_x x_t + b)
       </pre>
+
+Hidden layers are concerned with extracting progressively higher order features form the raw data.
 
 - **Output Layer:**
   - Function: Produces the final output of the network.
@@ -148,10 +152,10 @@ Optimization methods are algorithms used to adjust the model’s parameters to m
   <pre>
   θ = θ - η ∇J(θ; x^(i), y^(i))
   </pre>
-  - Characteristics: Updates parameters using one random data point at a time, leading to more noisy updates but often faster convergence.
+  - Characteristics: Updates parameters using one random data poinhttps://www.youtube.com/watch?v=442n7jTW5fAt at a time, leading to more noisy updates but often faster convergence.
 
 - **Adam (Adaptive Moment Estimation):**
-  <pre>
+  <pre>https://www.youtube.com/watch?v=442n7jTW5fA
   m_t = β_1 m_{t-1} + (1 - β_1) ∇J(θ)
   v_t = β_2 v_{t-1} + (1 - β_2) (∇J(θ))^2
   m̂_t = m_t / (1 - β_1^t)
